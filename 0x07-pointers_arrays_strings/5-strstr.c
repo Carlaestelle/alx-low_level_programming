@@ -36,6 +36,3 @@ char *_strstr(char *haystack, char *needle)
 	}
 	return ('\0');
 }
-Footer
-
-© 2023 GitHub, Inc.
