@@ -5,7 +5,7 @@
  * main - Entry point
  *
  * Description: print a quote using write function
- * 
+ *
  * Return: This time we return an error 1.
  */
 
