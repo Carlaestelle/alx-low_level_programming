@@ -1,9 +1,9 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * print_chessboard - a function that prints the chessboard
+ * print_chessboard - prints the chessboard
  *
- * @a: 2d aray of chars
+ * @a: the row of the array
  *
  * Return: nothing
  */
@@ -12,18 +12,17 @@ void print_chessboard(char (*a)[8])
 {
 	int i, j;
 
-	i = 0;
-	j = 0;
-	while (i < 64)
+	for (i = 0; i < 8; i++)
 	{
-		if (i % 8 == 0 && i != 0)
+		for (j = 0; j < 8; j++)
 		{
-			j = i;
-			_putchar('\n');
+			if (j == 7)
+			{
+				_putchar(a[i][j]);
+				_putchar('\n');
+			}
+			else
+				_putchar(a[i][j]);
 		}
-
-		_putchar(a[i / 8][i - j]);
-		i++;
 	}
-	_putchar('\n');
-}	
+}
