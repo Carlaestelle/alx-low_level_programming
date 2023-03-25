@@ -11,13 +11,11 @@
 
 int main(void)
 {
-	int digit = 0;
+	int number;
 
-	while (digit <= 9)
+	for (number = 48; number <= 57; number++)
 	{
-		/*convert digit to ASCII representation*/
-		putchar(digit + '0');
-		++digit;
+		putchar(number);
 	}
 	putchar('\n');
 
