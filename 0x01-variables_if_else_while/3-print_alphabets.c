@@ -4,12 +4,12 @@
  * main - Entry point
  *
  * Description: Printing the alphabet in lowercase
- * 		and uppercase
+ *		and uppercase
  *
  * Return: Always 0
  */
 
-int main()
+int main(void)
 {
 	char ch, CH;
 
