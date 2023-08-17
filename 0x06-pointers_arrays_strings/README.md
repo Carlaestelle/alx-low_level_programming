@@ -1,7 +1,9 @@
 0x06. C - More pointers, arrays and strings
 =
 `C`
+
 ![yay](https://intranet.alxswe.com/images/contents/low_level_programming/projects/happy-clapping.gif)
+
 Learning Objectives
 =
 At the end of this project, you are expected to be able to explain to anyone, __without the help of Google:__
@@ -404,6 +406,7 @@ File: `6-cap_string.c`
 <tr><td>__7. Mozart composed his music not for the elite, but for everybody__</td></tr>
 <tr><td>
 Write a function that encodes a string into [1337](https://en.wikipedia.org/wiki/Leet).
+
 - Letters `t` and `T` should be replaced by `7`
 - Letters `l` and `L` should be replaced by `1`
 - Prototype: `char *leet(char *);`
@@ -558,7 +561,7 @@ File: `101-print_number.c`
 <tr><td>___10. A dream doesn't become reality through magic; it takes sweat, determination and hard work___</td></tr>
 <tr><td>
 ![magic](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/21b4fc5c1b5df84e6ae4fe8807aa359d929e748a.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230817%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230817T161943Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=0c0e29b446de023976f0a88fb38f7f2929d23ab8e1c9f883d87a17a8c43a9548)
-Add one line to [this code](https://github.com/alx-tools/make_magic_happen/blob/master/magic.co). so that the program prints `a[2] = 98`, followed by a new line.
+Add one line to [this code](https://github.com/alx-tools/make_magic_happen/blob/master/magic.c). so that the program prints `a[2] = 98`, followed by a new line.
 
 - You are not allowed to use the variable `a` in your new line of code
 - You are not allowed to modify the variable `p`
